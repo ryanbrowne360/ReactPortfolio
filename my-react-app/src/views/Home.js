@@ -1,10 +1,13 @@
 import React from "react";
+import MyPic from "my-react-app/MyPic.jpg"
 
 function Home() {
   return (
     <div>
-      <h1>Ryan's Developer Portfolio</h1>
+      <h1>Welcome to my website!</h1>
+      <img src={MyPic}/>
     </div>
+
   );
 }
 

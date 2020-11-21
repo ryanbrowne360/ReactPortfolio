@@ -6,3 +6,4 @@ function Portfolio(){
     <Cards/>
 }
 
+export default Portfolio;
