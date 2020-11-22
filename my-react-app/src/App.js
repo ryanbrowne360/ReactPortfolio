@@ -3,24 +3,30 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./views/Portfolio";
 import Contact from "./views/Contact";
 import Home from "./views/Home";
+import Footer from "./components/Footer"
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <BrowserRouter>
+    return (
+        <BrowserRouter>
 
-      <div className="App">
-        <Navbar />
+            <div className="App">
+                <div>
+                    <Navbar />
 
-        <Switch>
+                    <Switch>
 
-          <Route exact path="/" component={Home} />
-            <Route exact path="/contact" component={Contact} />
-            <Route exact path="/portfolio" component={Portfolio} />
-           
-        </Switch>
-      </div>
-    </BrowserRouter>
-  );
+                        <Route exact path="/" component={Home} />
+                        <Route exact path="/contact" component={Contact} />
+                        <Route exact path="/portfolio" component={Portfolio} />
+
+                    </Switch>
+                </div>
+                <div class="container"><Footer /></div>
+
+            </div>
+        </BrowserRouter>
+
+    );
 }
 export default App;
