@@ -6,27 +6,21 @@ import Home from "./views/Home";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 
 function App() {
-  return (
-    <BrowserRouter>
+  return (
+    <BrowserRouter>
 
-      <div className="App">
-        <Navbar />
-        
-        <Switch>
-          <Route path="/">
-            <Home />
-          </Route>
-          <Route path="Contact">
-            <Contact />
-            <route path="Portfolio">
-              <Portfolio />
-            </route>
+      <div className="App">
+        <Navbar />
 
-          </Route>
-        </Switch>
-      </div>
-    </BrowserRouter>
-  );
+        <Switch>
+
+          <Route exact path="/" component={Home} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/portfolio" component={Portfolio} />
+           
+        </Switch>
+      </div>
+    </BrowserRouter>
+  );
 }
-
 export default App;

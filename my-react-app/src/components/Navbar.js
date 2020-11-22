@@ -11,7 +11,7 @@ export default function Navbar() {
     <ReactBootStrap.Nav className="mr-auto">
       <ReactBootStrap.NavDropdown title="Navigate My Site" id="collasible-nav-dropdown">
         <ReactBootStrap.NavDropdown.Item href="/">Home</ReactBootStrap.NavDropdown.Item>
-        <ReactBootStrap.NavDropdown.Item href="/src/Portfolio">Portfolio</ReactBootStrap.NavDropdown.Item>
+        <ReactBootStrap.NavDropdown.Item href="/Portfolio">Portfolio</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Item href="/Contact">Contact</ReactBootStrap.NavDropdown.Item>
         <ReactBootStrap.NavDropdown.Divider />
         <ReactBootStrap.NavDropdown.Item href="https://github.com/ryanbrowne360">Connect With Me On GitHub!</ReactBootStrap.NavDropdown.Item>
