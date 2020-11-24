@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+[**React Portfolio**](https://github.com/ryanbrowne360/reactportfolio)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Description:
 
-## Available Scripts
+This application is designed so that the user can run through a prompt in their terminal, and decide what to view, add, delete, modify etc. They are provided with a database that emulates a corporation. The information will then be linked and displayed via an html page.
 
-In the project directory, you can run:
+Installation:
 
-### `npm start`
+In order to deploy this application, you simply need a browser that is capabale of supporting the technologuies used in creating this react webpage. A recomended browser would be google chrome. To see if you have that, which you likely do, just [Follow this link](https://ryanbrowne360.github.io/reactportfolio/). If you have the files on your computer, and you want to run it offline via your localhost; you need to have node.js installed. Once Node.js is installed, you then have to run "npm start" from the command line, and be in the directory which contains the application files.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Hosted Application on Github Pages](https://ryanbrowne360.github.io/reactportfolio/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Usage:
 
-### `npm test`
+When the user opens the application page, they are presented with a simple command line user interface. From here they are able to select whatever they choose, such as departments, employees, etc. They can add, change, and delete information that is connected to an sql database. A schema is provided.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- *Google Chrome*
+- *JavaScript*
+- *Node.js*
+- *JQuery*
+- *HTML*
+- *CSS*
+- *Ryan Browne Software Developer* [Ryan Browne](https://github.com/ryanbrowne360/)
 
-### `npm run build`
+References:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [w3schools](https://www.w3schools.com/)
+- [npm compression](https://www.npmjs.com/package/compression)
+- [npm dotenv](https://www.npmjs.com/package/dotenv)
+- [npm express](https://www.npmjs.com/package/express)
+- [npm inquirer](https://www.npmjs.com/package/inquirer)
+- [npm mysql](https://www.npmjs.com/package/mysql)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+License:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+No License is required. You are free to use and modify this program as desired.
 
-### `npm run eject`
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+![HTML](https://img.shields.io/badge/HTML-100%25-orange)
+![CSS](https://img.shields.io/badge/CSS-100%25-yellowgreen)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![image](https://github.com/ryanbrowne360/EmployeeSummary/blob/main/Screenshot%202020-11-19%20230508.png)
+	

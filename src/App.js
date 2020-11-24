@@ -12,7 +12,7 @@ function App() {
         <HashRouter basename={process.env.PUBLIC_URL}>
             <div className="App">
                 <div>
-                    {/* <Stylesheet /> */}
+
                     <Navbar />
                     <Switch>
                         <Route exact path="/" component={Home} />
