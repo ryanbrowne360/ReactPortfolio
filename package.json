@@ -1,6 +1,6 @@
 {
-  "homepage": "https://ryanbrowne360.github.io/ReactPortfolio/",
-  "name": "my-react-app",
+  "homepage": "https://ryanbrowne360.github.io/reactportfolio/",
+  "name": "reactportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
