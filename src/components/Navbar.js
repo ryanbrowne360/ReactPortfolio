@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import * as ReactBootStrap from "react-bootstrap";
+//<ReactBootStrap.NavDropdown.Item>Portfolio</ReactBootStrap.NavDropdown.Item>
 
 export default function Navbar() {
   return (
@@ -10,10 +11,9 @@ export default function Navbar() {
       <ReactBootStrap.Navbar.Collapse id="responsive-navbar-nav">
         <ReactBootStrap.Nav className="mr-auto">
           <ReactBootStrap.NavDropdown title="Navigate My Site" id="collasible-nav-dropdown">
-            <NavLink to="/"><ReactBootStrap.NavDropdown.Item>Home</ReactBootStrap.NavDropdown.Item></NavLink>
-            
-            <NavLink to="/portfolio"><ReactBootStrap.NavDropdown.Item>Portfolio</ReactBootStrap.NavDropdown.Item></NavLink>
-            <NavLink to="/contact"><ReactBootStrap.NavDropdown.Item>Contact</ReactBootStrap.NavDropdown.Item></NavLink>
+            <NavLink to="/">Home</NavLink>
+            <NavLink to="/portfolio">Portfolio</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
             <ReactBootStrap.NavDropdown.Divider />
             <ReactBootStrap.NavDropdown.Item href="https://github.com/ryanbrowne360">Connect With Me On GitHub!</ReactBootStrap.NavDropdown.Item>
           </ReactBootStrap.NavDropdown>
