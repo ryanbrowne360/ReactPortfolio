@@ -1,21 +1,31 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import * as ReactBootStrap from "react-bootstrap";
-//<ReactBootStrap.NavDropdown.Item>Portfolio</ReactBootStrap.NavDropdown.Item>
+import "./myStyles.css"
+
 
 export default function Navbar() {
   return (
-    <div>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/portfolio">Portfolio</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
-      <NavLink to="https://github.com/ryanbrowne360">Connect With Me On Github</NavLink>
-      <NavLink to="https://github.com/ryanbrowne360/PortfolioPageUpdate1/blob/main/Ryan%20Browne%20Web%20Developer%20Resume%20.pdf">Please See My Resume Here</NavLink>
+    <div id="nav">
+      <ul>
+        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><a href="https://github.com/ryanbrowne360">Connect With Me On Github</a></li>
+        <li><a href="https://github.com/ryanbrowne360/PortfolioPageUpdate1/blob/main/Ryan%20Browne%20Web%20Developer%20Resume%20.pdf">Please See My Resume Here</a></li>
+      </ul>
+
     </div>
 
   );
 }
 
+/*<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>*/
 
 
 // <ReactBootStrap.Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -36,3 +46,5 @@ export default function Navbar() {
 //   </ReactBootStrap.Nav>
 // </ReactBootStrap.Navbar.Collapse>
 // </ReactBootStrap.Navbar>
+
+//<ReactBootStrap.NavDropdown.Item>Portfolio</ReactBootStrap.NavDropdown.Item>
